@@ -1,0 +1,90 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+.container.tarjeta
+  overflow-y: hidden
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/bg-1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.png") !important
+    background-position: top
+    
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+.bg-amarillo
+  background-color: #FFFBE8
+
+.bg-azul
+  background-color: #01A6B9
+.bg-azul:hover
+  background-color: #01A6B9
+.bg-azul-claro
+  background-color: #E3F4F5
+
+.bg-rosa
+  background-color: #FEEDE9
+
+.bg-morado
+  background-color: #F0E9F6
+
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+
+
+
+.acordion__header, 
+.acordion__contenido
+  background-color: #E3F4F5 !important
+  h4, i
+    font-weight: 400 !important
+
+.acordion__header--active
+  background-color: #01A6B9 !important
+  h4, i
+    color: #fff !important
+    font-weight: 800 !important
+
+
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
