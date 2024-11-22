@@ -1,37 +1,45 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno.text-uppercase(:titulo="'unidad 1: Introducción a la educación y pedagogía'" :subTitulo="'Introducción'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .bg-fondo-1.bg-full-width
-      div.px-5.pb-md-3.py-4
-    
-        p.mb-4 La educación se considera un proceso fundamental para la formación integral, que trasciende la simple transmisión de conocimientos. En esta unidad, se exploran los conceptos y finalidades de la educación, destacando su papel en el desarrollo de habilidades, valores y actitudes que fomentan una participación activa y crítica en la sociedad. El conocimiento adquirido no solo contribuye a formar individuos competentes, sino que también ayuda en la construcción de comunidades más justas y responsables.
-
-        .row
-          .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center ¿Cuál es el enfoque de la unidad?
-                p.text-small.px-4.text-center.pb-2 El enfoque de esta unidad se centra en cómo la educación moldea tanto a las personas como a su entorno. En un mundo en constante cambio, se reconoce la importancia de la educación más allá de lo académico. Este proceso se presenta como un medio para el desarrollo personal y social, promoviendo la reflexión crítica y la responsabilidad cívica, aspectos esenciales para una convivencia armónica y un progreso social sostenible.
-          .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-left")
-            div.custom-image-card.rounded-8px
-              img.mb-4(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
-              div.mb-4
-                p.text-bold.text-center ¿Qué se espera al finalizar la unidad?
-                p.text-small.px-4.text-center.pb-2 Al finalizar la unidad, se espera que se logre identificar y analizar las diversas funciones de la educación en la sociedad. Se desarrollarán habilidades para evaluar, de manera crítica, los diferentes enfoques educativos y una comprensión profunda de su papel en la formación de ciudadanos autónomos y comprometidos con la comunidad.
-    p.mb-4 Además, la educación impacta no solo en la vida personal, sino que también es clave para el futuro profesional. Comprender cómo se aplican los principios educativos en la práctica, puede inspirar a convertirse en un agente de cambio en la comunidad. Los líderes educativos, por ejemplo, influyen en las futuras generaciones, moldeando su forma de pensar y actuar, lo que subraya la relevancia de este tema para el desarrollo social. 
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.mb-5
     .row.mb-4
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        div.d-flex.align-items-start.bg-amarillo.p-4.h-100(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-3.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Se espera que el estudiante participe activamente en las actividades y discusiones, mostrando disposición para explorar diversas perspectivas sobre la educación. Es fundamental que revise los materiales sugeridos, como lecturas y videos, que se encuentran en la guía de aprendizaje, para enriquecer el diálogo y maximizar su comprensión. Además, se anticipa que el estudiante desarrolle habilidades de análisis crítico y reflexión, reconociendo la importancia de la educación como un motor de cambio social y personal en su vida y en la comunidad.
+        p.mb-4 La presente unidad se centra en el estudio de las teorías pedagógicas, un tema fundamental en el ámbito de la educación. La comprensión de estas teorías resulta esencial para desarrollar prácticas educativas efectivas, dado que ofrecen un marco conceptual que guía el proceso de enseñanza-aprendizaje
+        p.mb-4 El objetivo de este proceso es el de comprender la importancia de las teorías pedagógicas en el desarrollo de la educación. Al finalizar esta sección, se espera que el estudiante haya adquirido un conocimiento sólido sobre las principales corrientes pedagógicas, sus exponentes y sus aplicaciones en el aula, así como un entendimiento claro del papel que desempeña el docente en cada una de ellas.
+        p.mb-0 La unidad se organizará en cuatro secciones:
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')  
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')  
 
+    
+    .bg-fondo-3.bg-full-width
+      div.px-5.pb-md-3.py-4
+        .row.mb-4.justify-content-center
+          .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3.flex-column.align-items-center
+              img.pe-2(src='@/assets/curso/unidad/img-2.svg', style="width: 80px")
+              p.text-bold.mb-4 Primera sección
+              p.px-1.text-small.mb-0.d-flex Se dedicará a la introducción de las teorías pedagógicas, abordando su definición y evolución histórica.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3.flex-column.align-items-center
+              img.pe-2(src='@/assets/curso/unidad/img-3.svg', style="width: 80px")
+              p.text-bold.mb-4 Segunda sección
+              p.px-1.text-small.mb-0.d-flex Se analizarán las teorías clásicas y contemporáneas, incluyendo el conductismo, cognitivismo y constructivismo, así como también, sus aplicaciones en el aula.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3.flex-column.align-items-center
+              img.pe-2(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
+              p.text-bold.mb-4 Tercera sección
+              p.px-1.text-small.mb-0.d-flex Explorará el papel del docente en estas corrientes.
+          .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0
+            .custom-image-card.d-flex.p-3.flex-column.align-items-center
+              img.pe-2(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
+              p.text-bold.mb-4 Cuarta sección
+              p.px-1.text-small.mb-0.d-flex Se discutirá el impacto de las teorías pedagógicas en los sistemas educativos y los desafíos y oportunidades que presentan.
 
-
+        .row.mb-5
+          .d-flex.align-items-center
+            div.d-flex.align-items-center.bg-verde-oscuro.px-3.py-4.text-white(data-aos="fade-down")
+              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-4.svg', alt='Texto que describa la imagen')
+              p.pe-xl-5.mb-0 Se espera que se involucren activamente en el curso, participando en discusiones y actividades, así como cumplir también con los requisitos previos necesarios para aprovechar al máximo esta experiencia de aprendizaje. Este enfoque colaborativo y participativo, es esencial para lograr un aprendizaje significativo y duradero en el contexto de un curso virtual.
 
 </template>
 

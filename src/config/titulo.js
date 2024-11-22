@@ -1,1 +1,1 @@
-module.exports = 'unidad 1: Introducción a la educación y pedagogía'
+module.exports = 'unidad 2: Teorías pedagógicas y su impacto en la educación'

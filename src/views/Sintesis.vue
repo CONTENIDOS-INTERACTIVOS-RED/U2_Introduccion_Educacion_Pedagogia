@@ -1,8 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno.text-uppercase(:titulo="'unidad 1: Introducción a la educación y pedagogía'" :subTitulo="'SÍNTESIS'")
+  BannerInterno.text-uppercase(:titulo="'unidad 2: Teorías pedagógicas y su impacto en la educación'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad 1: Introducción a la educación y pedagogía, establece los fundamentos teóricos esenciales para comprender el concepto de educación y su propósito en el desarrollo personal y social. Esta unidad proporciona una perspectiva clara sobre las finalidades de la educación, su papel en la formación de habilidades, valores y actitudes, así como su impacto en la construcción de una sociedad justa y responsable. Este enfoque integral asegura que los estudiantes adquieran una comprensión sólida de la educación como un motor de cambio y desarrollo, lo cual les permitirá aplicar estos conocimientos en su vida y comunidad.
+    p.mb-4.mb-md-5 La Unidad 2: Teorías pedagógicas y su impacto en la educación, explora los fundamentos teóricos esenciales de las principales corrientes pedagógicas y su influencia en el desarrollo de prácticas educativas efectivas. Esta unidad profundiza en el conductismo, cognitivismo y constructivismo, abordando su evolución histórica, principales exponentes y aplicaciones en el aula. Además, examina el rol del docente en cada una de estas teorías, destacando cómo cada enfoque determina su función como mediador, facilitador y guía en el proceso de aprendizaje. La comprensión de estas teorías proporciona a los estudiantes un marco analítico para reflexionar sobre la educación, permitiéndoles analizar críticamente sus prácticas y mejorar la calidad de la enseñanza en diversos contextos educativos.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

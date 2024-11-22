@@ -21,10 +21,10 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title Introducción a la educación y pedagogía
-              h1.home-title.mb-4.text-uppercase Introducción a la educación y pedagogía
-              p.descripcion.mb-4 Desde tiempos antiguos, la educación ha sido un pilar esencial en la formación del ser humano, superando la simple transmisión de conocimientos. En esta primera unidad, exploraremos los conceptos fundamentales de la educación, profundizando en sus objetivos y finalidades, así como en su impacto en el desarrollo personal y social. Analizaremos cómo la educación contribuye a moldear habilidades, valores y actitudes que promueven la participación activa y crítica en la sociedad, ayudando a construir comunidades justas y responsables. Además, veremos su papel como motor de cambio, tanto en la vida individual como colectiva, y su importancia en un mundo en constante evolución.
+              h1.home-title.mb-4.text-uppercase Teorías pedagógicas y su impacto en la educación
+              p.descripcion.mb-4 En esta unidad, exploraremos las diversas teorías pedagógicas que han marcado el desarrollo de la educación a lo largo del tiempo. Estas teorías no solo fundamentan las prácticas educativas, sino que también orientan el papel del docente en el proceso de enseñanza-aprendizaje. A través de esta unidad, los estudiantes comprenderán la relevancia del conductismo, cognitivismo y constructivismo en el aula, así como sus aplicaciones prácticas.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para descubrir el verdadero propósito de la educación y cómo puede influir en tu vida y en la sociedad!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para adentrarte en el fascinante mundo de la pedagogía y descubre cómo estas teorías pueden transformar la educación!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
