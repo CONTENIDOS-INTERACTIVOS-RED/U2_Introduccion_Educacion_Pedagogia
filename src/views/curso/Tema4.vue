@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno.text-uppercase(:titulo="'unidad 2: Teorías pedagógicas y su impacto en la educación'" :subTitulo="'4. Impacto de las teorías pedagógicas en los sistemas educativos'")
+    BannerInterno.text-uppercase(:titulo="'Unidad 2. Teorías pedagógicas y su impacto en la educación'" :subTitulo="'4. Impacto de las teorías pedagógicas en los sistemas educativos'")
     .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0
   
       .row.mb-4
@@ -18,7 +18,7 @@
           .col-12.col-xl-7.d-flex.ps-4.align-items-center.flex-column(data-aos="fade-left")
             h2.mb-4.pb-2.me-auto Impacto en los sistemas educativos
             p.mb-4 Lo invitamos a consultar el PDF Impacto en los sistemas educativos,  en donde se explora cómo diversas teorías pedagógicas han moldeado las políticas educativas y examina ejemplos específicos de sistemas educativos que han integrado distintos enfoques teóricos para mejorar la calidad educativa, el rendimiento académico y la inclusión en el aula.
-            a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Impacto de las teorías pedagógicas en los sistemas educativos.pdf')" target="_blank")
+            a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_4.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Impacto en los sistemas educativos
 

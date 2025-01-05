@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno.text-uppercase(:titulo="'unidad 1: Introducción a la educación y pedagogía'" :subTitulo="'Introducción'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Teorías pedagógicas y su impacto en la educación'" :subTitulo="'Introducción'")
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.mb-5
     .row.mb-4
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        p.mb-4 La presente unidad se centra en el estudio de las teorías pedagógicas, un tema fundamental en el ámbito de la educación. La comprensión de estas teorías resulta esencial para desarrollar prácticas educativas efectivas, dado que ofrecen un marco conceptual que guía el proceso de enseñanza-aprendizaje
+        p.mb-4 La presente unidad se centra en el estudio de las teorías pedagógicas, un tema fundamental en el ámbito de la educación. La comprensión de estas teorías resulta esencial para desarrollar prácticas educativas efectivas, dado que ofrecen un marco conceptual que guía el proceso de enseñanza-aprendizaje.
         p.mb-4 El objetivo de este proceso es el de comprender la importancia de las teorías pedagógicas en el desarrollo de la educación. Al finalizar esta sección, se espera que el estudiante haya adquirido un conocimiento sólido sobre las principales corrientes pedagógicas, sus exponentes y sus aplicaciones en el aula, así como un entendimiento claro del papel que desempeña el docente en cada una de ellas.
         p.mb-0 La unidad se organizará en cuatro secciones:
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
@@ -44,15 +44,8 @@
 </template>
 
 <script>
-import BannerInterno from '../components/plantilla/BannerInterno'
-import Muestras from '../components/muestras/Muestras.vue'
-
 export default {
   name: 'Introduccion',
-  components: {
-    BannerInterno,
-    Muestras,
-  },
   data: () => ({
     globalData: global,
   }),

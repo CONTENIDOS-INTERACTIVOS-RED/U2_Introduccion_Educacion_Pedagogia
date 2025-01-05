@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 2: Teorías pedagógicas y su impacto en la educación'" :subTitulo="'3. El papel del docente en las distintas corrientes pedagógicas'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Teorías pedagógicas y su impacto en la educación'" :subTitulo="'3. El papel del docente en las distintas corrientes pedagógicas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5
@@ -15,12 +15,12 @@
         h2 El docente en el conductismo
     
     .row.mb-5
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        p Al examinar el papel del docente en el marco del conductismo, se encuentra una concepción en la que el rol del docente se centra en la facilitación y el modelado de conductas específicas. En esta corriente pedagógica, fundada principalmente por psicólogos como John B. Watson y B.F. Skinner, el aprendizaje se entiende como un cambio en el comportamiento observable del estudiante, que es influenciado mediante estímulos y refuerzos externos (Skinner, 1953). 
-        .d-flex.align-items-start.bg-rosa.p-4.mb-4(data-aos="fade-left")
-          p.pe-xl-3.mb-0(data-aos="fade-up") Al examinar el papel del docente en el marco del conductismo, se encuentra una concepción en la que el rol del docente se centra en la facilitación y el modelado de conductas específicas. En esta corriente pedagógica, fundada principalmente por psicólogos como John B. Watson y B.F. Skinner, el aprendizaje se entiende como un cambio en el comportamiento observable del estudiante, que es influenciado mediante estímulos y refuerzos externos (Skinner, 1953). 
+      .col-12.col-xl-8.d-flex.flex-column
+        p.mb-4 Al examinar el papel del docente en el marco del conductismo, se encuentra una concepción en la que el rol del docente se centra en la facilitación y el modelado de conductas específicas. En esta corriente pedagógica, fundada principalmente por psicólogos como John B. Watson y B.F. Skinner, el aprendizaje se entiende como un cambio en el comportamiento observable del estudiante, que es influenciado mediante estímulos y refuerzos externos (Skinner, 1953). 
+        .d-flex.align-items-start.bg-rosa.px-4.py-5.mb-4(data-aos="fade-left")
+          p.pe-xl-3.mb-0(data-aos="fade-up") Así, el docente asume un rol estratégico en el diseño y la implementación de métodos de enseñanza que promuevan conductas deseables, empleando herramientas como el refuerzo positivo y negativo para incentivar o reducir ciertas respuestas en el estudiante.
         p.mb-4 Ampliemos la información sobre el rol del docente en el conductismo:
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+      .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')  
 
     .row.position-relative.mb-5.py-4.bg-fondo-2.bg-full-width
@@ -51,7 +51,7 @@
               figure
                 img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
 
-    .row.mb-4
+    .row.mb-5
       .col-12.col-md-11.col-lg-10.mx-auto
         .d-flex.align-items-center
           div.d-flex.align-items-center.bg-amarillo.px-3.py-4
@@ -130,32 +130,228 @@
       div.px-4.px-md-5.py-md-3
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/FFRIhfNmvLU?si=ZRJ81zpsW2F5SbeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     #t_3_3.titulo-segundo
       div.d-flex
         span.me-3 3.3
         h2 El docente en el constructivismo
 
-    .row.mb-4
+    .row.mb-5
       .col-12.col-xl-7.d-flex.flex-column
         p.mb-4 En el constructivismo, el rol del docente se redefine significativamente, pasando de ser un transmisor de conocimiento a convertirse en un guía y facilitador del aprendizaje. 
         .bg-morado.p-4.d-flex.flex-column(data-aos="fade-right")
           p.mb-4 Lo invitamos a leer el PDF El docente en el constructivismo, y conocer como las teorías de sus pensadores, han impactado en la función del docente.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_El docente en el constructivismo.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_2.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> El docente en el constructivismo.
       .col-5.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=4339400" target="_blank" rel="noopener noreferrer") Guevara, L. M. (2013). Reflexiones sobre las teorías de aprendizaje. REDHECS: Revista electrónica de Humanidades, Educación y Comunicación Social, 8(14), 6-15.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/B5peKBdONhU?si=AFuuQ2FArJZsJnYy" target="_blank" rel="noopener noreferrer") Mas puentes, menos muros. ¿QUÉ SON LAS TEORÍAS? | Temas educativos para estudiantes de educación 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'El papel del docente en las distintas corrientes pedagógicas',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'Según el cognitivismo, ¿qué proceso es fundamental para el aprendizaje?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Refuerzo',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Condicionamiento',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Memoria',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Regulación emocional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué métodos de enseñanza se asocian con el constructivismo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Pruebas estandarizadas',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Evaluaciones sumativas',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Instrucción directa',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aprendizaje basado en proyectos',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué aspecto de las teorías pedagógicas impacta los sistemas educativos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La llegada de nuevas tecnologías',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Las políticas educativas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'El número de estudiantes',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Los recursos económicos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cómo han cambiado las prácticas de enseñanza las teorías pedagógicas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Fomentando el aprendizaje memorístico',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Limitando la interactividad',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Implementando métodos más colaborativos',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Aumentando la competencia individual',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué tendencia de evaluación es emergente según las teorías pedagógicas actuales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Evaluación sumativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Evaluación formativa',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Evaluación estandarizada',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Evaluación diagnóstica',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -165,8 +361,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>
+<style lang="sass"></style>

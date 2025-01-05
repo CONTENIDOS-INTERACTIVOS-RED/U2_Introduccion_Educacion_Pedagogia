@@ -1,12 +1,12 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 2: Teorías pedagógicas y su impacto en la educación'" :subTitulo="'1. Introducción a las teorías pedagógicas'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Teorías pedagógicas y su impacto en la educación'" :subTitulo="'1. Introducción a las teorías pedagógicas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-4
       .d-flex.align-items-center
         div.d-flex.align-items-center(data-aos="fade-down")
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-7.svg', alt='Texto que describa la imagen')
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-7.svg', alt='')
           p.pe-xl-5.mb-0 Al adentrarnos en el estudio de las teorías pedagógicas, nos encontraremos con un conjunto de conceptos fundamentales que explican y orientan los procesos educativos. 
 
     .row.mb-4.mx-0
@@ -20,7 +20,7 @@
       .col-5.d-none.d-xl-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7.d-flex.flex-column.align-items-center(data-aos="fade-left")
-        p.mb-4 Por ejemplo, teorías como el constructivismo de Jean Piaget y Lev Vygotsky, o el enfoque del aprendizaje significativo propuesto por David Ausubel, ofrecen perspectivas distintas sobre cómo los estudiantes construyen su conocimiento. Estos enfoques sugieren que el aprendizaje no es solo un proceso de adquisición de información, sino un acto activo de construcción de significados. La teoría constructivista, por ejemplo, plantea que el conocimiento se construye mediante la interacción con el entorno, y no simplemente a través de la transmisión de conocimientos
+        p.mb-4 Por ejemplo, teorías como el constructivismo de Jean Piaget y Lev Vygotsky, o el enfoque del aprendizaje significativo propuesto por David Ausubel, ofrecen perspectivas distintas sobre cómo los estudiantes construyen su conocimiento. Estos enfoques sugieren que el aprendizaje no es solo un proceso de adquisición de información, sino un acto activo de construcción de significados. La teoría constructivista, por ejemplo, plantea que el conocimiento se construye mediante la interacción con el entorno, y no simplemente a través de la transmisión de conocimientos.
         p.mb-0 Es importante destacar que el dominio de las teorías pedagógicas proporciona un marco de análisis crítico para reflexionar sobre las prácticas educativas. Así, la teoría se convierte en una herramienta que permite cuestionar los métodos de enseñanza, indagar en la efectividad de las estrategias y buscar formas de mejorar la calidad del aprendizaje. De esta manera, las teorías pedagógicas no solo fundamentan la práctica educativa, sino que también fomentan una actitud reflexiva y crítica en el ejercicio docente.
 
     #t_1_1.titulo-segundo
@@ -73,7 +73,24 @@
               p.text-bold.mb-1 Lectura recomendadas
               p.pe-xl-5.mb-0 Se invita a leer el texto "Teorías del aprendizaje y modelos educativos: revisión histórica" de Fonseca y Bencomo (2011), el cual se encuentra en el material de apoyo. Esta lectura es una oportunidad valiosa para profundizar en la evolución de las teorías del aprendizaje y los modelos educativos que han influido en las prácticas docentes hasta hoy.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.researchgate.net/publication/367203768_Bandura's_Social_Learning_Theory_Social_Cognitive_Learning_Theory" target="_blank" rel="noopener noreferrer") Bandura, A. (1977). Social Learning Theory. Prentice Hall. 
 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/CWdIG21czR8?si=24oAcAMkqmODY7u_" target="_blank" rel="noopener noreferrer") Sprouts Español (6 ene 2023). La teoría del aprendizaje social de Bandura.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

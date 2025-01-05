@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Introducción a la educación y pedagogía
-              h1.home-title.mb-4.text-uppercase Teorías pedagógicas y su impacto en la educación
+              p.home-main-title UNIDAD 2
+              h1.home-title.mb-4 Teorías pedagógicas y su impacto en la educación
               p.descripcion.mb-4 En esta unidad, exploraremos las diversas teorías pedagógicas que han marcado el desarrollo de la educación a lo largo del tiempo. Estas teorías no solo fundamentan las prácticas educativas, sino que también orientan el papel del docente en el proceso de enseñanza-aprendizaje. A través de esta unidad, los estudiantes comprenderán la relevancia del conductismo, cognitivismo y constructivismo en el aula, así como sus aplicaciones prácticas.
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para adentrarte en el fascinante mundo de la pedagogía y descubre cómo estas teorías pueden transformar la educación!
@@ -60,7 +60,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

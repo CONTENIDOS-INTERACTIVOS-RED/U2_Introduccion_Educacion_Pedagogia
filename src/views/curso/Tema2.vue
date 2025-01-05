@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 2: Teorías pedagógicas y su impacto en la educación'" :subTitulo="'2. Teorías pedagógicas clásicas y contemporáneas'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 2. Teorías pedagógicas y su impacto en la educación'" :subTitulo="'2. Teorías pedagógicas clásicas y contemporáneas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5
@@ -19,7 +19,7 @@
         p.mb-4 Esta corriente se originó en la psicología experimental y se centra en el estudio de la conducta observable, considerando que el aprendizaje ocurre a través de la interacción entre estímulos del entorno y respuestas visibles. 
         .bg-morado.p-4.d-flex.flex-column(data-aos="fade-right")
           p.mb-4 Para comprender el conductismo dentro de las teorías pedagógicas, es esencial conocer sus principios fundamentales y las contribuciones de sus principales exponentes, lo invitamos a consultar el PDF Principios fundamentales del conductismo y profundizar sobre estos elementos.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Principios fundamentales del conductismo.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_6.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Principios fundamentales del conductismo
       .col-5.d-none.d-xl-block(data-aos="fade-left")
@@ -33,8 +33,8 @@
           img.h-100(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2 Aplicaciones en el aula
-          p.mb-3 El conductismo, como una de las teorías más influyentes en el ámbito de la psicología del aprendizaje, ha dejado una huella profunda en los modelos educativos actuales. Al enfocarse en el comportamiento observable y en la respuesta a estímulos específicos, esta teoría propone que el aprendizaje puede ser estructurado y optimizado a través de técnicas que modifiquen las conductas de los estudiantes. En el entorno educativo, el conductismo ha sido la base para desarrollar estrategias que promuevan no solo la adquisición de conocimientos, sino también la creación de hábitos y conductas que favorezcan un ambiente de respeto y colaboración en el aula. A continuación, en el PDF Aplicaciones en el aula , se detallan algunas de las principales aplicaciones del conductismo en la dinámica escolar, resaltando cómo estas contribuyen al desarrollo integral de los estudiantes.  
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Aplicaciones en el aula.pdf')" target="_blank")
+          p.mb-3 El conductismo, como una de las teorías más influyentes en el ámbito de la psicología del aprendizaje, ha dejado una huella profunda en los modelos educativos actuales. Al enfocarse en el comportamiento observable y en la respuesta a estímulos específicos, esta teoría propone que el aprendizaje puede ser estructurado y optimizado a través de técnicas que modifiquen las conductas de los estudiantes. En el entorno educativo, el conductismo ha sido la base para desarrollar estrategias que promuevan no solo la adquisición de conocimientos, sino también la creación de hábitos y conductas que favorezcan un ambiente de respeto y colaboración en el aula. A continuación, en el PDF Aplicaciones en el aula, se detallan algunas de las principales aplicaciones del conductismo en la dinámica escolar, resaltando cómo estas contribuyen al desarrollo integral de los estudiantes.  
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_1.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Aplicaciones en el Aula
              
@@ -135,8 +135,8 @@
           img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto Estrategias de enseñanza basadas en el cognitivismo
-          p.mb-3 El conductismo, como una de las teorías más influyentes en el ámbito de la psicología del aprendizaje, ha dejado una huella profunda en los modelos educativos actuales. Al enfocarse en el comportamiento observable y en la respuesta a estímulos específicos, esta teoría propone que el aprendizaje puede ser estructurado y optimizado a través de técnicas que modifiquen las conductas de los estudiantes. En el entorno educativo, el conductismo ha sido la base para desarrollar estrategias que promuevan no solo la adquisición de conocimientos, sino también la creación de hábitos y conductas que favorezcan un ambiente de respeto y colaboración en el aula. A continuación, en el PDF Aplicaciones en el aula , se detallan algunas de las principales aplicaciones del conductismo en la dinámica escolar, resaltando cómo estas contribuyen al desarrollo integral de los estudiantes.  
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Estrategias de enseñanza basadas en el cognitivismo.pdf')" target="_blank")
+          p.mb-3 El cognitivismo, como enfoque teórico del aprendizaje, pone énfasis en los procesos mentales internos que intervienen en la adquisición y procesamiento de conocimientos. A diferencia del conductismo, que prioriza la modificación de conductas observables, el cognitivismo se centra en cómo el individuo organiza, interpreta y almacena la información, buscando que el aprendizaje sea significativo y estructurado. Esta perspectiva subraya la importancia de estrategias que estimulen la comprensión profunda, la construcción activa del conocimiento y el desarrollo de habilidades de autorregulación en el estudiante. A continuación, en el PDF #[strong Estrategias de enseñanza basadas en el cognitivismo], se presentan algunas de las estrategias más destacadas del cognitivismo, resaltando cómo contribuyen a optimizar el proceso de enseñanza y aprendizaje en el aula. 
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_3.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias de enseñanza basadas en el cognitivismo
 
@@ -208,14 +208,33 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Implicaciones para la práctica educativa
-          p.mb-4 El constructivismo, como teoría del aprendizaje, propone una visión transformadora de la educación en la que el estudiante se convierte en el protagonista de su propio proceso de conocimiento. Lejos de ser un receptor pasivo, el estudiante en el enfoque constructivista participa activamente en la construcción de significados, basándose en sus experiencias previas y en la interacción con su entorno. En este marco, el rol del docente cambia a un facilitador que guía y apoya al estudiante en su exploración y comprensión del mundo. Este enfoque no solo modifica la dinámica del aula, sino que también promueve una educación más participativa, centrada en el desarrollo de habilidades críticas, sociales y de autorregulación. A continuación, en el PDF Implicaciones para la práctica educativa , se presentan las principales implicaciones del constructivismo en la práctica educativa, destacando estrategias y métodos que favorecen un aprendizaje significativo y colaborativo.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Implicaciones para la práctica educativa.pdf')" target="_blank")
+          p.mb-4 El constructivismo, como teoría del aprendizaje, propone una visión transformadora de la educación en la que el estudiante se convierte en el protagonista de su propio proceso de conocimiento. Lejos de ser un receptor pasivo, el estudiante en el enfoque constructivista participa activamente en la construcción de significados, basándose en sus experiencias previas y en la interacción con su entorno. En este marco, el rol del docente cambia a un facilitador que guía y apoya al estudiante en su exploración y comprensión del mundo. Este enfoque no solo modifica la dinámica del aula, sino que también promueve una educación más participativa, centrada en el desarrollo de habilidades críticas, sociales y de autorregulación. A continuación, en el PDF Implicaciones para la práctica educativa, se presentan las principales implicaciones del constructivismo en la práctica educativa, destacando estrategias y métodos que favorecen un aprendizaje significativo y colaborativo.
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_5.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Implicaciones para la práctica educativa
              
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://nap.nationalacademies.org/catalog/9853/how-people-learn-brain-mind-experience-and-school-expanded-edition" target="_blank" rel="noopener noreferrer") Bransford, J. D., Brown, A. L., & Cocking, R. R. (Eds.). (2000). How People Learn: Brain, Mind, Experience, and School. National Academy Press. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://editorial.upn.edu.co/wp-content/pages/freire/index.html" target="_blank" rel="noopener noreferrer") Universidad pedagógica nacional. (sep 2021) Paulo Freire maestro de maestros 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
