@@ -63,7 +63,7 @@
         .h5.mb-1 Siglo XIX y principios del siglo XX
         p figuras como John Dewey en Estados Unidos y María Montessori en Italia, revolucionaron la educación al introducir conceptos como el aprendizaje activo y el enfoque en el desarrollo integral de cada estudiante. Dewey abogó por una educación basada en la experiencia y la participación activa, mientras que Montessori resaltó la importancia de los ambientes preparados y la autonomía del estudiante en el proceso de aprendizaje (Martínez, 2020). Estos enfoques fueron fundamentales para el surgimiento del constructivismo en el siglo XX, una de las teorías más influyentes en la pedagogía contemporánea, la cual sostiene que el conocimiento se construye activamente mediante la interacción con el entorno y la resolución de problemas.
 
-    .row.mb-0
+    .row.mb-5
       .col-12.col-md-11.col-lg-10.mx-auto
         p.mb-4 El recorrido histórico de las teorías pedagógicas, permite observar cómo estas han evolucionado en respuesta a los cambios sociales, culturales y científicos. Cada etapa de la historia de la pedagogía ha aportado ideas y enfoques que aún hoy sirven de fundamento para las prácticas educativas. Este análisis demuestra que las teorías pedagógicas no solo proporcionan marcos de referencia para la enseñanza, sino que también reflejan las aspiraciones y valores de cada sociedad. 
         .d-flex.align-items-center
