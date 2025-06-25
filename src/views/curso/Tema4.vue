@@ -22,14 +22,190 @@
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Impacto en los sistemas educativos
 
-  </template>
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
+</template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema4',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'El papel del docente en las distintas corrientes pedagógicas',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'Según el cognitivismo, ¿qué proceso es fundamental para el aprendizaje?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Refuerzo',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Condicionamiento',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Memoria',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Regulación emocional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué métodos de enseñanza se asocian con el constructivismo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Pruebas estandarizadas',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Evaluaciones sumativas',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Instrucción directa',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aprendizaje basado en proyectos',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué aspecto de las teorías pedagógicas impacta los sistemas educativos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La llegada de nuevas tecnologías',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Las políticas educativas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'El número de estudiantes',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Los recursos económicos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cómo han cambiado las prácticas de enseñanza las teorías pedagógicas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Fomentando el aprendizaje memorístico',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Limitando la interactividad',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Implementando métodos más colaborativos',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Aumentando la competencia individual',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué tendencia de evaluación es emergente según las teorías pedagógicas actuales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Evaluación sumativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Evaluación formativa',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Evaluación estandarizada',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Evaluación diagnóstica',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -39,8 +215,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>
+<style lang="sass"></style>
